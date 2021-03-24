@@ -5,8 +5,8 @@ webhook = input("Insert Webhook Url: ")
 file = input("Insert Path To File: ")
 
 payload = {
-    "username": "Test",
-    "content": "lol"
+    "username": "github.com/tornadus",
+    "content": "github.com/Not-Cyrus"
 }
 
 with open(file, "rb") as openfile:
