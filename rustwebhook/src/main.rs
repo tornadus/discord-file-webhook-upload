@@ -17,9 +17,6 @@ async fn main() {
     .read_line(&mut file_path)
     .expect("Failed to read the filepath");
 
-
-    let url = format!("{}",webhook);
-
     let data = fs::read(file_path.clone().trim()).expect("Failed to properly read file data");
 
     let part = reqwest::multipart::Part::bytes(data).file_name(file_path);
@@ -29,7 +26,7 @@ async fn main() {
     .part("file",part);
 
     reqwest::Client::new()
-    .post(&url)
+    .post(&webhook)
     .multipart(form)
     .send()
     .await
