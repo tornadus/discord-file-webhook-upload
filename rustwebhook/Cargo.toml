@@ -1,0 +1,9 @@
+[package]
+name = "webhook"
+version = "0.1.0"
+authors = ["Not-Cyrus <github.com/Not-Cyrus>"]
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json","multipart"] }
+tokio = { version = "1", features = ["full"] }
