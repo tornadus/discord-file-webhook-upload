@@ -20,7 +20,7 @@ async fn main() {
 
     let url = format!("{}",webhook);
 
-    let data = fs::read(file_path.clone().trim()).unwrap();
+    let data = fs::read(file_path.clone().trim()).expect("Failed to properly read file data");
 
     let part = reqwest::multipart::Part::bytes(data).file_name(file_path);
 
