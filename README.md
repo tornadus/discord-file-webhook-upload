@@ -7,7 +7,7 @@ Note: if there is no comment at the top of who made it, [I,](https://github.com/
 Anyone is welcome to contribute.
 
 
-### LANGUAGES BEING DONE
+### LANGUAGES IT'S BEING CREATED IN (WIP)
 
 [CPP](https://github.com/tornadus)
 
