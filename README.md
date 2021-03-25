@@ -25,7 +25,8 @@ Anyone is welcome to contribute.
 
 [PHP - Me](https://github.com/Not-Cyrus)
 
-python ( @tornadus11 )
+[python - Tornadus](https://github.com/tornadus)
+
 [Ruby - Me](https://github.com/Not-Cyrus)
 
 [Rust - Me](https://github.com/Not-Cyrus)
